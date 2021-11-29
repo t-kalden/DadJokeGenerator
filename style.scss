@@ -1,0 +1,39 @@
+.container {
+    height: vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    h1 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 30px;
+
+        .blue {
+            color: teal;
+        }
+        .red {
+            color: maroon;
+        }
+    }
+    #banner {
+        width: 100%;
+        margin-top: 50px;
+    }
+    #btn {
+        width: 150px;
+        margin: 0 auto;
+        color: white;
+    }
+    ul {
+        li {
+            list-style: none;
+            font-size: 22px;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+    }
+
+}   

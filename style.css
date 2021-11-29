@@ -1,0 +1,50 @@
+.container {
+  height: vh;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+}
+
+.container h1 {
+  font-size: 50px;
+}
+
+.container p {
+  font-size: 30px;
+}
+
+.container p .blue {
+  color: teal;
+}
+
+.container p .red {
+  color: maroon;
+}
+
+.container #banner {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.container #btn {
+  width: 150px;
+  margin: 0 auto;
+  color: white;
+}
+
+.container ul li {
+  list-style: none;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+/*# sourceMappingURL=style.css.map */
