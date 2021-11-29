@@ -13,9 +13,14 @@
         <h1>DAD JOKE GENERATOR</h1>
         <p>Using <span class="blue">Axios</span> and <span class="red">icanhazdadjoke</span>.com</p>
         <h3 id="banner" >Click to get new jokes!</h1>
-        <button id="btn" class="btn btn-info">Click me</button>
+        <div class="btn-group " role="group">
+            <button id="newJokeBtn" class="btn btn-info">Click me</button>
+            <button id="clearJokeBtn" class="btn btn-danger">Clear</button>
+        </div>
         <div class="container container-sm">
-            <ul id="jokes"></ul>
+            <ul id="jokes">
+                <li id="listItems"></li>
+            </ul>
         </div>
     </div>
 </body>

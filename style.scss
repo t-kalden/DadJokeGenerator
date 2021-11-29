@@ -20,13 +20,18 @@
     }
     #banner {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 20px;
     }
-    #btn {
-        width: 150px;
+    .btn-group {
         margin: 0 auto;
-        color: white;
+       
+        .btn {
+            width: 150px;
+            margin: 10px 10px;
+            color: white;
+        }
     }
+    
     ul {
         li {
             list-style: none;

@@ -32,12 +32,16 @@
 
 .container #banner {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
-.container #btn {
-  width: 150px;
+.container .btn-group {
   margin: 0 auto;
+}
+
+.container .btn-group .btn {
+  width: 150px;
+  margin: 10px 10px;
   color: white;
 }
 
